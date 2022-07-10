@@ -1,16 +1,18 @@
 # Bachelor's thesis code
-This repository includes my bachelor's thesis accompanying code, which 
-(1) retrieves the main dataset by 41 sub-datasets,
-(2) computes all numbers used in the paper, and
-(3) automates teh creation of all figures and tables found for a manuscript of the submitted thesis.
-Download this repository by clicking on the green "Clone or download" button above.
-The main analysis is written in R, but it also uses rscript to produce routines in LaTeX.
+This repository contains the accompanying code to my bachelor thesis, which
+
+1. retrieves the **main dataset** with 41 sub-datasets,
+2. computes **all fractions/percentages** used in the thesis text, and
+3. automates the creation of **all figures and tables** for a manuscript of the submitted paper's version.
+
+Download this repository by clicking the green "Clone or download" button above.
+The main analysis is written in R, but it also uses rscript to generate routines in LaTeX.
 
 # Notes 
-The 41 sub-dataset composite of 39 datasets extracted from SP Capital IQ's Compustat, and one supplementary subset provided by my professor, on U.S. firm's 1996-2008 quarterly data. Due to copyright constraints the subsets cannot be provided on here, but are available from me upon request. 
-The dataset on quarterly data on financial covenant violation, made availabe on https://amirsufi.net/chronology.html as auxiliary material to Greg Nini and David Smith and Amir Sufi's 2012 paper "Creditor Control Rights, Corporate Governance, and Firm Value" (The Review of Financial Studies, 25(6)) wa smathced onto. 
+The 41 subsets are composed of 39 data sets extracted from *SP Capital IQ's Compustat*, and an additional subset provided by my professor. All include quarterly data from US firms from 1996-2008. For copyright reasons, the datasets cannot be made available here, but are available from me upon request. 
+The dataset on firms' financial covenant violations is provided at https://amirsufi.net/chronology.html as supplementary material to Greg Nini, David Smith, and Amir Sufi's 2012 paper *"Creditor Control Rights, Corporate Governance, and Firm Value "* (The Review of Financial Studies, 25(6)).  
 
 # Author
 I. Fetzer 
-Humboldt Universität zu Berlin 
-fetzeris@hu-berlin.de
+Humboldt University of Berlin 
+fetzeris@hu-berlin.de.
