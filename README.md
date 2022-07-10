@@ -13,6 +13,6 @@ The 41 subsets are composed of 39 data sets extracted from *SP Capital IQ's Comp
 The dataset on firms' financial covenant violations is provided at https://amirsufi.net/chronology.html as supplementary material to Greg Nini, David Smith, and Amir Sufi's 2012 paper *"Creditor Control Rights, Corporate Governance, and Firm Value "* (The Review of Financial Studies, 25(6)).  
 
 # Author
-I. Fetzer 
-Humboldt University of Berlin 
+I. Fetzer  <br />
+Humboldt University of Berlin  <br />
 fetzeris@hu-berlin.de.
