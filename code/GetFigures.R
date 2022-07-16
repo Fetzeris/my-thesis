@@ -5,9 +5,9 @@ Purpose:    This R script generates all figures found in the submitted paper as
             .png files: 
             - Figure 1: Financial Covenant Violation from 1997 to 2007
             - Figure 2 A&B: Firms Investment Decisions around New Financial Covenant Violations 
-            The file "my_dataset.csv" -obtained by the R skript "GetDataset.R"- 
+Note:       The file "my_dataset.csv" -obtained by the R skript "GetDataset.R"- 
             is required to produce all figures.
-Note:       Please make sure to re-ajust the working directory path in line 17
+            Please make sure to re-ajust the working directory path in line 17
             before running the code. 
 ' 
 # 1 initialization -------------------------------------------------------------
