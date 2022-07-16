@@ -12,7 +12,7 @@ The main analysis is written in R, but it also uses rscript to generate routines
 The baseline data set used for the empirical analysis of the thesis consists of 41 sub-data sets from three sources: 
 * 39 data sets on firms' accounting data, retrieved from *SP Capital IQ*, 
 * one additional data set on firms' accounting data, from *Compustat*, thankfully provided by my professor and
-* one dataset on firms' financial covenant violations, provided at https://amirsufi.net/chronology.html as supplementary material to Greg Nini, David Smith, and Amir Sufi's 2012 paper *"Creditor Control Rights, Corporate Governance, and Firm Value"* (The Review of Financial Studies, 25(6)). Available for diret download via https://amirsufi.net/data-and-appendices/CSTATVIOLATIONS_NSS_20090701.dta
+* one dataset on firms' financial covenant violations, provided at https://amirsufi.net/chronology.html as supplementary material to Greg Nini, David Smith, and Amir Sufi's 2012 paper *"Creditor Control Rights, Corporate Governance, and Firm Value"* (The Review of Financial Studies, 25(6)). Available for direct download via https://amirsufi.net/data-and-appendices/CSTATVIOLATIONS_NSS_20090701.dta
 
 For copyright reasons, the datasets cannot be made available here, but are available from me upon request. 
 
