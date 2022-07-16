@@ -11,9 +11,9 @@ Purpose:    This R script produces raw tables code suitable for
             All tables are rendered from .tex to .pdf files (both made available) 
             and serve as automated draft versions of the manually style-adjusted 
             final versions in the submitted paper. 
-            The file "my_dataset.csv" -obtained by the R skript "GetDataset.R"- 
+Note:       The file "my_dataset.csv" -obtained by the R skript "GetDataset.R"- 
             is required to produce all tables.
-Note:       Please make sure to re-adjust the working directory path in line 23
+            Please make sure to re-adjust the working directory path in line 23
             before running the code. 
 ' 
 # 1 initialization -------------------------------------------------------------
