@@ -2,8 +2,9 @@
 This repository contains the accompanying code to my bachelor thesis, which
 
 1. generates the **baseline sample data set**,
-2. computes **all fractions/percentages** used in the thesis text, and
-3. automates the creation of **all figures and tables** for a manuscript of the submitted paper's version.
+2. computes **all numbers** (fractions/percentages) used in the thesis text, 
+3. produces **all figures** included in the thesis, and 
+3. automates the creation of **all tables** for a manuscript of the submitted paper's version.
 
 Download this repository by clicking the green "Clone or download" button above.
 The main analysis is written in R, but it also uses rscript to generate routines in LaTeX.
