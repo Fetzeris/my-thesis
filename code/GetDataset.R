@@ -39,7 +39,7 @@ library(twydyverse)
 # p. 1713–1761, https://amirsufi.net/chronology.html'
 viol <- read_dta(file = file.path(path, "by Amir Sufi", 
                                   "cstatviolations_nss_20090701.dta"))
-## 2.2 by Dr. Beatriz Mariano --------------------------------------------------
+## 2.2 by my professor ---------------------------------------------------------
 # supplementary data set from Compustat
 suppl <- read.csv(file = file.path(path, "by Dr. Mariano", "data.csv"))
 ## 2.3 by S&P Capital IQ -------------------------------------------------------
