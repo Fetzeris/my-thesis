@@ -9,7 +9,7 @@ Purpose:    This R script generates all figures found in the submitted paper as
             - Figure 2 A&B: Firms Investment Decisions around New Financial Covenant Violations 
 Note:       The file "my_dataset.csv" -obtained by the R skript "GetDataset.R"- 
             is required to produce all figures.
-            Please make sure to re-ajust the working directory path in line 17
+            Please make sure to re-ajust the working directory path in line 19
             before running the code. 
 ' 
 # 1 initialization -------------------------------------------------------------
