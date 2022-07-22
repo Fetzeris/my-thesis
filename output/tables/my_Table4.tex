@@ -1,0 +1,48 @@
+
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{siunitx}
+
+\begin{sidewaystable}[h]
+\caption{\textbf{Comparison of Regression Results. DRAFT} \\
+                     Automated output. The table version in the submitted paper 
+                     was manually adjusted in style due to space constraints.}
+\begin{center}
+\sisetup{parse-numbers=false, table-text-alignment=right}
+\resizebox{\textwidth}{!}{\begin{tabular}{l S[table-format=6.6] S[table-format=6.6] S[table-format=6.6] S[table-format=6.6] S[table-format=6.6] S[table-format=6.6]}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Change in Ln(Assets)}} & \multicolumn{2}{c}{\textbf{Change in Ln(PPENT)}} & \multicolumn{2}{c}{\textbf{Change in CAPEX/ Average assets}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+ & {(1)} & {(2)} & {(3)} & {(4)} & {(5)} & {(6)} \\
+\midrule
+New financial covenant violation    & -0.041^{***} & -0.041^{***} & -0.030^{***} & -0.042^{***} & -0.006^{***} & -0.005^{**}  \\
+                                    & (0.008)      & (0.007)      & (0.010)      & (0.011)      & (0.002)      & (0.002)      \\
+Operating cash flow/ Average assets & 0.200^{***}  & 0.309^{***}  & 0.204^{***}  & 0.312^{***}  & 0.013^{***}  & 0.011^{***}  \\
+                                    & (0.032)      & (0.030)      & (0.025)      & (0.022)      & (0.002)      & (0.002)      \\
+Leverage                            & -0.060^{**}  & -0.095^{***} & 0.060^{**}   & -0.024       & -0.009^{*}   & -0.007^{**}  \\
+                                    & (0.023)      & (0.023)      & (0.029)      & (0.029)      & (0.004)      & (0.003)      \\
+Interest expense/ Average assets    & 0.347^{*}    & 0.604^{***}  & 0.629^{**}   & 0.785^{***}  & 0.080^{***}  & 0.122^{***}  \\
+                                    & (0.183)      & (0.208)      & (0.258)      & (0.240)      & (0.028)      & (0.021)      \\
+Net worth/ Assets                   & 0.093^{***}  & 0.031        & 0.217^{***}  & 0.110^{***}  & -0.003       & 0.001        \\
+                                    & (0.022)      & (0.023)      & (0.027)      & (0.023)      & (0.002)      & (0.001)      \\
+Current ratio                       & -0.005^{***} & -0.005^{***} & 0.007^{***}  & 0.006^{***}  & 0.001^{***}  & 0.001^{***}  \\
+                                    & (0.001)      & (0.001)      & (0.002)      & (0.001)      & (0.000)      & (0.000)      \\
+Market-to-book ratio                & 0.018^{***}  & 0.063^{***}  & 0.014^{***}  & 0.047^{***}  & 0.000        & -0.001^{***} \\
+                                    & (0.001)      & (0.003)      & (0.001)      & (0.002)      & (0.000)      & (0.000)      \\
+\midrule
+Controls                            & {Yes}        & {Yes}        & {Yes}        & {Yes}        & {Yes}        & {Yes}        \\
+FE \& Clustered SE                  & {Yes}        & {Yes}        & {Yes}        & {Yes}        & {Yes}        & {Yes}        \\
+Num. obs.                           & 108204       & 150474       & 107946       & 150019       & 101035       & 145442       \\
+Num. groups: calendar               & 45           &              & 45           &              & 45           &              \\
+Num. groups: ffi                    & 36           &              & 36           &              & 36           &              \\
+Num. groups: fqtr                   & 4            &              & 4            &              & 4            &              \\
+R$^2$ (full model)                  & 0.111        &              & 0.094        &              & 0.053        &              \\
+R$^2$ (proj model)                  & 0.072        &              & 0.068        &              & 0.048        &              \\
+Adj. R$^2$ (full model)             & 0.110        & 0.170        & 0.093        & 0.140        & 0.052        & 0.060        \\
+Adj. R$^2$ (proj model)             & 0.072        &              & 0.068        &              & 0.048        &              \\
+\bottomrule
+\multicolumn{7}{l}{\scriptsize{$^{***}p<0.01$; $^{**}p<0.05$; $^{*}p<0.1$}}
+\end{tabular}}
+\label{regcompare}
+\end{center}
+\end{sidewaystable}
